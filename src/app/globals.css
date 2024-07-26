@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&family=Rubik+Bubbles&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Jaro:opsz@6..72&family=Jersey+10&family=Rubik+Glitch+Pop&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  button {
+    @apply border border-black rounded-xl px-5 py-1;
+  }
+  body {
+    background-color: #171717;
+    margin: auto;
+    padding: auto;
+  }
+}
